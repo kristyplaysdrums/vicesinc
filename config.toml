@@ -1,0 +1,4 @@
+baseURL = "http://vicesinc.com"
+languageCode = "en-us"
+title = "Vices INC"
+theme = "vicesinc"
