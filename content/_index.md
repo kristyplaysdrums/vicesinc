@@ -1,5 +1,5 @@
 ---
-title: "Vices INC."
+title: "Vices INC"
 draft: false
 ---
 
