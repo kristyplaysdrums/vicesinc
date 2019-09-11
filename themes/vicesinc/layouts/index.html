@@ -3,5 +3,23 @@
 {{ .Title }} – {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<h1>Vices INC</h1>
+<div id="about" class="container">
+  <h2>Vices Inc</h2>
+</div>
+<div id="shows" class="container">
+  <h2>Shows</h2>
+  <div class="shows-wrap">
+    <a href="https://www.songkick.com/artists/10071168" class="songkick-widget" data-theme="dark" data-track-button="on" data-detect-style="true" data-font-color="#ffffff" data-background-color="transparent" data-locale="en">Vices Inc tour dates</a>
+    <script src="//widget.songkick.com/10071168/widget.js"></script>
+  </div>
+</div>
+<div id="music" class="container">
+  <h2>Music</h2>
+</div>
+<div id="merch" class="container">
+  <h2>Merch</h2>
+</div>
+<div id="contact" class="container">
+  <h2>Contact</h2>
+</div>
 {{ end }}
