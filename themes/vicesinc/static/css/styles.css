@@ -118,7 +118,11 @@ img {
 }
 @media (min-width: 900px) {
   .logo-wrap {
-    padding-top: 140px;
+    padding: 60px 16px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -207,5 +211,8 @@ img {
 }
 
 .band-member-role {
-  margin: 0;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 12px 0 0;
 }

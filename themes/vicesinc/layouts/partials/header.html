@@ -1,6 +1,12 @@
 <header class="header">
   <div class="logo-wrap">
-    <img src="/images/logo.jpg" alt="Vices Inc logo" class="logo" />
+    <picture>
+      <img
+        class="logo"
+        src="/images/logo.jpg"
+        srcset="/images/logo@2x.jpg 2x"
+        alt="Vices Inc logo" />
+    </picture>
   </div>
   <nav class="menu-wrap">
     <div class="menu-container container">
@@ -15,7 +21,7 @@
         <li><a href="https://www.facebook.com/VicesInc/" target="_blank">{{- partial "svgs/facebook.html" . -}}</a></li>
         <li><a href="https://twitter.com/IncVices" target="_blank">{{- partial "svgs/twitter.html" . -}}</a></li>
         <li><a href="https://www.instagram.com/vices.inc.band/" target="_blank">{{- partial "svgs/instagram.html" . -}}</a></li>
-        <li><a href="#" target="_blank">{{- partial "svgs/youtube.html" . -}}</a></li>
+        <li><a href="https://www.youtube.com/channel/UCZTjPAakiaBxdbesFEc4ytA?view_as=subscriber" target="_blank">{{- partial "svgs/youtube.html" . -}}</a></li>
         <li><a href="https://soundcloud.com/vicesinc" target="_blank">{{- partial "svgs/soundcloud.html" . -}}</a></li>
       </ul>
     </div>
