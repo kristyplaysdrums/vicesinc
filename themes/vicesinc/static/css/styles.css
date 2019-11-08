@@ -43,7 +43,7 @@ img {
 }
 
 .header:after {
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
   content: '';
   height: 32px;
   position: absolute;
@@ -215,4 +215,73 @@ img {
   font-size: 14px;
   line-height: 1.4;
   margin: 12px 0 0;
+}
+
+.contact-text {
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.contact-form {
+  display: block;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.contact-fieldset {
+  border: none;
+  display: block;
+  margin: 0 0 14px;
+  padding: 0;
+}
+
+.contact-label {
+  display: block;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.contact-input {
+  border: 1px solid #000;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 8px 10px;
+  resize: none;
+  width: 100%;
+}
+
+.contact-textarea {
+  height: 200px;
+}
+
+.contact-submit {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 2px;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  font-weight: 700;
+  padding: 8px 10px;
+  text-transform: uppercase;
+}
+
+.contact-submit:hover {
+  background-color: #eee;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 16px;
+  text-align: center;
+}
+
+.footer .menu {
+  justify-content: center;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  margin-top: 30px;
 }

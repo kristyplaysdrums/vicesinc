@@ -1,0 +1,21 @@
+<div class="contact-text">
+  <p>Want to book us for a show? Want to tell us how cool we are? Fill out the form below to get in touch with us!</p>
+</div>
+<form class="contact-form" name="contact" data-netlify-recaptcha="true" netlify>
+  <fieldset class="contact-fieldset">
+    <label for="name" class="contact-label">Name</label>
+    <input type="text" id="name" class="contact-input" required/>
+  </fieldset>
+  <fieldset class="contact-fieldset">
+    <label for="email" class="contact-label">Email</label>
+    <input type="email" id="email" class="contact-input" required/>
+  </fieldset>
+  <fieldset class="contact-fieldset">
+    <label for="message" class="contact-label">Message</label>
+    <textarea id="message" class="contact-input contact-textarea" required></textarea>
+  </fieldset>
+  <div data-netlify-recaptcha="true"></div>
+  <fieldset class="contact-fieldset">
+    <input type="submit" class="contact-submit" />
+  </fieldset>
+</form>
