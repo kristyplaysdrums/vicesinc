@@ -229,6 +229,21 @@ img {
 
 /* MUSIC */
 
+@media (min-width: 768px) {
+  .album-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.album {
+  padding: 0 24px 24px;
+}
+
+.album:last-child {
+  padding: 0 24px;
+}
+
 .album-art {
   width: 300px;
   margin: 0 auto;
