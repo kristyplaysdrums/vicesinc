@@ -126,6 +126,10 @@ img {
   display: block;
 }
 
+.hero {
+  height: auto;
+  width: 100%;
+}
 /* GENERIC SECTIONS */
 
 .section-heading {
