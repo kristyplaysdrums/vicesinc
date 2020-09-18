@@ -1,16 +1,21 @@
 <header class="header">
   <div class="logo-wrap">
-    <picture>
+    <!--<picture>
       <img
         class="logo"
-        src="/images/logo.jpg"
+        src="/images/vices-group.jpg"
         srcset="/images/logo@2x.jpg 2x"
         alt="Vices Inc logo" />
-    </picture>
+    </picture>-->
+    <img
+      class="hero"
+      src="/images/vices-group.jpg"
+      alt="A group photo of Vices Inc" />
   </div>
   <nav class="menu-wrap">
     <div class="menu-container container">
       <ul class="menu main-menu">
+        <li class="logo">{{- partial "svgs/vicesinc.html" . -}}</li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#shows">Shows</a></li>
         <li><a href="#music">Music</a></li>

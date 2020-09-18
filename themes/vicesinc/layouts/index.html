@@ -42,15 +42,14 @@
         <picture>
           <img
             class="band-member-image"
-            src="/images/noah.png"
-            srcset="/images/noah@2x.png 2x"
+            src="/images/aerith.png"
+            srcset="/images/aerith@2x.png 2x"
             alt="" />
         </picture>
-        <h3 class="band-member-name">Noah</h3>
+        <h3 class="band-member-name">Aerith</h3>
         <div class="band-member-role">
           <div>Guitar</div>
-          <div>Keyboards</div>
-          <div>Vocals</div>
+          <div>Back Vocals</div>
         </div>
       </div>
       <div class="band-member">
@@ -94,36 +93,73 @@
         <picture>
           <img
             class="album-art"
-            src="/images/one4one.jpg"
-            srcset="/images/one4one@2x.jpg 2x"
+            src="/images/litlt-cover.jpg"
+            srcset="/images/litlt-cover@2x.jpg 2x"
             alt="" />
         </picture>
-        <h3 class="album-title">One 4 One (Single)</h3>
-        <p class="album-info">Coming February 2020</p>
+        <h3 class="album-title">Like It's The Last Time (Single)</h3>
+        <p class="album-info">Coming October 2020</p>
       </div>
       <div class="album">
-        <picture>
+        <!--<picture>
           <img
             class="album-art"
             src="/images/an-everyday-hero.png"
             srcset="/images/an-everyday-hero@2x.png 2x"
             alt="" />
-        </picture>
+        </picture>-->
+        <div class="album-art">
+          {{- partial "svgs/vicesinc.html" . -}}
+        </div>
         <h3 class="album-title">An Everyday Hero</h3>
-        <p class="album-info">Coming April 2020</p>
+        <p class="album-info">Coming December 2020</p>
       </div>
     </div>
   </section>
   <section id="merch" class="container">
     <h2 class="section-heading">Merch</h2>
-    <picture>
-      <img
-        class="merch-image"
-        src="/images/vices-shirt.jpg"
-        srcset="/images/vices-shirt@2x.jpg 2x"
-        alt="" />
-    </picture>
-    <h3 class="merch-name">Vices Inc. Tee</h3>
+    <div class="merch-list">
+      <div class="merch-item">
+        <picture>
+          <img
+            class="merch-image"
+            src="/images/vices-everyday-hero-shirt.png"
+            srcset="/images/vices-everyday-hero-shirt@2x.png 2x"
+            alt="" />
+        </picture>
+        <p class="merch-name">An Everyday Hero Shirt</p>
+      </div>
+      <div class="merch-item">
+        <picture>
+          <img
+            class="merch-image"
+            src="/images/vices-shirt-black.png"
+            srcset="/images/vices-shirt-black@2x.png 2x"
+            alt="" />
+        </picture>
+        <p class="merch-name">Vices Inc Zen Shirt</p>
+      </div>
+      <div class="merch-item">
+        <picture>
+          <img
+            class="merch-image"
+            src="/images/vices-shirt-white.jpg"
+            srcset="/images/vices-shirt-white@2x.jpg 2x"
+            alt="" />
+        </picture>
+        <p class="merch-name">Vices Inc Logo Shirt</p>
+      </div>
+      <div class="merch-item">
+        <picture>
+          <img
+            class="merch-image"
+            src="/images/with-you-again-shirt.png"
+            srcset="/images/with-you-again-shirt@2x.png 2x"
+            alt="" />
+        </picture>
+        <p class="merch-name">With You Again Lyrics Shirt</p>
+      </div>
+    </div>
   </section>
   <section id="contact" class="container">
     <h2 class="section-heading">Contact</h2>
