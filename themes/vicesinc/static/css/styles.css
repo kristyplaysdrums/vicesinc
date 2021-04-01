@@ -167,11 +167,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0 -8px;
+  margin: 0 auto;
+  max-width: 1000px;
   padding: 40px 0;
 }
 
 .band-member {
+  max-width: 240px;
   padding: 16px 12px;
   text-align: center;
   transition: transform .3s ease;
