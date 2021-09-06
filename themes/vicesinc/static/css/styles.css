@@ -35,6 +35,10 @@ img {
   padding: 16px;
 }
 
+a {
+  color: #f0f0f0;
+}
+
 /* HEADER */
 
 .header {
@@ -268,8 +272,30 @@ img {
 }
 
 .album-info {
-  margin: 6px 0 16px;
+  margin: 6px 0 8px;
   text-align: center;
+}
+
+.album-price {
+  font-size: 22px;
+  margin: 8px 0 16px;
+}
+
+.album-buy-button {
+  border: 2px solid #f0f0f0;
+  display: inline-block;
+  color: #f0f0f0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 0 0 16px;
+  padding: 16px;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.album-buy-button:hover {
+  background-color: #f0f0f0;
+  color: #000101; 
 }
 
 /* MERCH */
