@@ -35,6 +35,10 @@ img {
   padding: 16px;
 }
 
+p {
+  line-height: 1.5;
+}
+
 a {
   color: #f0f0f0;
 }
@@ -233,11 +237,26 @@ a {
 /* MUSIC */
 
 .single {
-  margin: 0 auto 60px;
+  margin: 0 16px; 
   max-width: 500px;
 }
 
+.single-art {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.single-list {
+  margin: 30px 0 60px;
+}
+
 @media (min-width: 768px) {
+  .single-list {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .album-list {
     display: flex;
     flex-wrap: wrap;
