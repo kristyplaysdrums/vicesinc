@@ -247,16 +247,14 @@ a {
 }
 
 .single-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 30px 0 60px;
 }
 
 @media (min-width: 768px) {
-  .single-list {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   .album-list {
     display: flex;
     flex-wrap: wrap;
@@ -314,6 +312,12 @@ a {
   padding: 16px;
   text-decoration: none;
   transition: all .3s ease;
+}
+
+.album-buy-button.full {
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
 .album-buy-button:hover {
